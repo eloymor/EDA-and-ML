@@ -109,9 +109,9 @@ uv run main.py
 
 The API will be accessible at `http://localhost:8000`.
 ### API Endpoints
-- **(GET)`/health`**: Checks the health of the API and model loading status. Example: `GET http://localhost:8000/health`
-- **(GET)`/raw_data`**: Retrieves all raw data (before ETL) stored in the database. Example: `GET http://localhost:8000/raw_data`
-- **(GET)`/processed_data`**: Retrieves all processed data (after ETL) stored in the database. Example: `GET http://localhost:8000/processed_data`
+- **(GET)`/health`**: Checks the health of the API and model loading status. Example: `http://localhost:8000/health`
+- **(GET)`/raw_data`**: Retrieves all raw data (before ETL) stored in the database. Example: `http://localhost:8000/raw_data`
+- **(GET)`/processed_data`**: Retrieves all processed data (after ETL) stored in the database. Example: `http://localhost:8000/processed_data`
 - **(POST)`/predict`**: Predicts the median house value based on input features. Request Body Example:
 ```JSON
 {
@@ -129,8 +129,8 @@ The API will be accessible at `http://localhost:8000`.
 ```
 
 Example: `POST http://localhost:8000/predict`
-- **(GET)`/train`**: Triggers the model retraining process. Example: `GET http://localhost:8000/train` 
+- **(GET)`/train`**: Triggers the model retraining process. Example: `http://localhost:8000/train` 
 - You can also specify the database and the table name `POST http://localhost:8000/train/my_custom_db.db/my_table`
 - **(POST)** `/etl/filename.csv` Triggers the ETL pipeline. Example: http://localhost:8000/etl/filename.csv
 - **(POST)** `/etl/filename.csv/db_name/table_name` Triggers the ETL pipeline with a custom database and table. Example: http://localhost:8000/etl/filename.csv/my_custom_db/my_table
-- **(GET)`/docs`**: Opens the Swagger UI documentation page. Example: `GET http://localhost:8000/docs`
+- **(GET)`/docs`**: Opens the Swagger UI documentation page. Example: `http://localhost:8000/docs`
