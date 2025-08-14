@@ -1,0 +1,7 @@
+{
+    "<1H OCEAN": 1,
+    "INLAND": 2,
+    "NEAR OCEAN": 3,
+    "NEAR BAY": 4,
+    "ISLAND": 5
+}
