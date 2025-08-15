@@ -43,7 +43,7 @@ This project requires Python 3.13.5. We use `uv` as the package manager.
 
     ```bash
     git clone https://github.com/eloymor/EDA-and-ML.git
-    cd EDA-and-ML
+    cd EDA-and-ML/California housing prices/
     ```
 
 2.  **Install dependencies**:
