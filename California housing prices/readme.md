@@ -130,7 +130,7 @@ The API will be accessible at `http://localhost:8000`.
 
 Example: `POST http://localhost:8000/predict`
 - **(GET)`/train`**: Triggers the model retraining process. Example: `http://localhost:8000/train` 
-- You can also specify the database and the table name `POST http://localhost:8000/train/my_custom_db.db/my_table`
+- **(POST)** You can also specify the database and the table name `http://localhost:8000/train/my_custom_db.db/my_table`
 - **(POST)** `/etl/filename.csv` Triggers the ETL pipeline. Example: http://localhost:8000/etl/filename.csv
 - **(POST)** `/etl/filename.csv/db_name/table_name` Triggers the ETL pipeline with a custom database and table. Example: http://localhost:8000/etl/filename.csv/my_custom_db/my_table
 - **(GET)`/docs`**: Opens the Swagger UI documentation page. Example: `http://localhost:8000/docs`

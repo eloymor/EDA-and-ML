@@ -30,7 +30,7 @@ This project uses `uv` as the package manager. To set up the environment, follow
     ```
 2.  Install the required packages using `uv`:
     ```bash
-    uv uv add torch torchvision matplotlib scikit-learn
+    uv add torch torchvision matplotlib scikit-learn
     ```
 
 ## Usage
