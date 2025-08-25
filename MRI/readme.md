@@ -33,6 +33,8 @@ This project uses `uv` as the package manager. To set up the environment, follow
     uv add torch torchvision matplotlib scikit-learn
     ```
 
+3.  Download the dataset from [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) and extract it into the `data` directory.
+
 ## Usage
 
 The main logic for MRI brain tumor detection is implemented in the `MRI.ipynb` Jupyter Notebook.
